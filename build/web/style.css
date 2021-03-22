@@ -1,0 +1,279 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/05/2020, 02:12:40 PM
+    Author     : USUARIO
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+  margin: 10px auto;
+  width: 1024px;
+  height:auto;
+  background: #D4D4D4;
+  font-family: 'Roboto', sans-serif;
+
+}
+head{
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  width: 100%;
+  height: auto;
+}
+.cab{
+  width: 800px;
+  max-width: 80%;
+	margin: 45px auto;
+  background: #666666;
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+}
+.derechos{
+  width: 800px;
+  max-width: 80%;
+	margin: 45px auto;
+  background: #666666;
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+	height: 35px;
+}
+.wrap{
+	width: 800px;
+	max-width: 90%;
+	margin: 30px auto;
+}
+
+ul.tabs{
+	width: 100%;
+	background: #666666;
+	list-style: none;
+	display: flex;
+	text-align: center;
+}
+
+ul.tabs li{
+	width: 20%;
+	text-align: center;
+	margin-left: 30px;
+
+}
+
+ul.tabs li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+text-align: center;
+	display: inline-block;
+	padding: 20px 20px;
+}
+
+.active{
+	background: #05A4D3;
+        
+}
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+	text-align: center;
+}
+
+.secciones{
+	width: 100%;
+	background: #fff;
+}
+
+.secciones article{
+	padding: 30px;
+}
+
+.secciones article p{
+	text-align: justify;
+}
+img{
+  float: left;
+	margin-left: 10px;
+}
+
+@media screen and (max-width: 700px){
+	ul.tabs li{
+		width: none;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (max-width: 450px){
+	ul.tabs li a{
+		padding: 15px 0px;
+	}
+
+	ul.tabs li a .tab-text{
+		display: none;
+	}
+
+	.secciones article{
+		padding: 20px;
+	}
+}
+@media screen and (max-width: 700px){
+	ul.tabs li{
+		width: none;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (max-width: 450px){
+	ul.tabs li a{
+		padding: 15px 0px;
+	}
+
+	ul.tabs li a .tab-text{
+		display: none;
+	}
+
+	.secciones article{
+		padding: 20px;
+	}
+}
+img {
+
+  padding: 5px;
+  width: 70%;
+  text-align: center;
+  float: center;
+}
+.tarjetaT{
+    text-align: center;
+    display: inline-block;
+
+}
+.tarjetaT img{
+    text-align: center;
+    margin-left:35%;
+}
+.tarjetaT h1{
+    margin-left: 50%;
+}
+.main-login {
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.main-login .contenedor-principal.formulario {
+  background-color: white;
+  width: 100%;
+  max-width: 31rem;
+  min-width: 31rem;
+  padding: 1.5rem;
+  border-radius: 0.9375rem;
+  box-shadow: 0px 0px 50px -10px rgba(20, 35, 47, 0.8);
+}
+.main-login .contenedor-principal.formulario .titulo {
+  margin: 1.25rem;
+  margin-bottom: 0rem;
+  font-size: 1.7rem;
+}
+.main-login .contenedor-principal.formulario .subtitulo {
+  font-size: 1.3rem;
+}
+
+.main-login .contenedor-principal.formulario .contenedor-selector {
+  margin: 1rem auto;
+  margin-top: 0rem;
+}
+.main-login .contenedor-principal.formulario .contenedor-selector .selector {
+  margin: 0rem 1rem;
+}
+.main-login .contenedor-principal.formulario .contenedor-selector .selector .input-selector {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 820px) {
+  .main-login .contenedor-principal.formulario {
+    max-width: 25rem;
+    min-width: 25rem;
+  }
+  .main-login .contenedor-principal.formulario .input-text {
+    min-width: 15rem;
+    max-width: 15rem;
+  }
+}
+@media screen and (max-width: 413px) {
+  .main-login .contenedor-principal.formulario {
+    max-width: 18rem;
+    min-width: 18rem;
+  }
+  .main-login .contenedor-principal.formulario .input-text {
+    min-width: none;
+    max-width: none;
+    width: 90%;
+  }
+  .main-login .contenedor-principal.formulario .titulo {
+    font-size: 1.5rem;
+  }
+}
+.displey-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.displey-flex-between {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+.input-text {
+  font-size: 1.25rem;
+  display: block;
+  width: 100%;
+  padding: 0.4125rem 0.625rem;
+  background: none;
+  border: 3px solid #FFF;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #34332F;
+  transition: all 0.5s ease;
+  border-radius: 0.3125rem;
+  outline: none;
+  margin: 0.625rem auto;
+  font-family: "Roboto", monospace, sans-serif;
+}
+.input-text:hover {
+  border-color: transparent;
+  border-bottom-color: rgba(19, 35, 47, 0.8);
+}
+
+
+
+.displey-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
